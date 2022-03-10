@@ -1,0 +1,8 @@
+<div class="search-container">
+  <input (keyup)="debounceSearch($event.target.value)" type="search" placeholder="enter keyword or title" class="custom-search">
+  <div class="search-results">
+    <ng-container *ngFor="let result of searchResult">
+      <app-suggestion-card [result]="result"></app-suggestion-card>
+    </ng-container>
+  </div>
+</div>

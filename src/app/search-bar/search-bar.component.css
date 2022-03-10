@@ -1,0 +1,14 @@
+.custom-search {
+  min-width: 200px;
+  width: 600px;
+  border-radius: 26px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  outline: none;
+}
+
+.search-container {
+  display: inline-block;
+  flex: 2;
+}

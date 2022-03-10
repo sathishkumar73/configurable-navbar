@@ -1,0 +1,6 @@
+<div class="profile-container">
+  <img (click)="showProfileOptions()" src="https://cdn.cdnlogo.com/logos/c/56/cafe-opera.svg" class="profile-img">
+  <div class="profile-options" *ngIf="showProfile">
+    <div *ngFor="let value of profileConfig['values']" class="profile-card">{{value}}</div>
+  </div>
+</div>

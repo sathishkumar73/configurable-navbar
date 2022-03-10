@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.suggestion-card, .profile-card {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid black;
+  border-width: 0 0 1px 0;
+  cursor: pointer;
+}
+
+.suggestion-card:hover, .profile-card:hover {
+  background: #ccc;
+}
